@@ -1,0 +1,128 @@
+body
+{
+	margin: 0px;
+	font-family: "Titillium-Regular",sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+
+/* Listor, tabeller och länkar */
+li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+a
+{
+display:block;
+margin-right: 20px;
+color: #fff;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+table
+{
+	border: none;
+	border-spacing: 0px;
+}	
+
+th 
+{
+	padding-right: 20px;
+}
+
+td
+{
+	padding-right: 20px;
+}
+
+tr a
+{
+	color: #000000;
+	text-decoration: underline !important;
+}
+
+/* Header */
+
+#header
+{
+	width: 100%;
+	height: 80px;
+	background-color: #474c55;
+}
+
+#header h3
+{margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 15px;
+padding-top: 10px;}
+
+#header li
+{margin-left: 15px;
+margin-top: 15px;}
+
+/*Admin header*/
+#adminHeader
+{
+	background-color: #737C8B;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 40px;
+}
+
+#adminHeader li
+{margin-left: 15px;
+margin-top: 10px;}
+
+/* Innehåll */
+.trUnique
+{
+	background-color: #afcee1;
+}
+
+.secondTD
+{
+	width: 461px;
+	text-align: left;
+	padding-top: 40px;
+}
+
+/* ticketForm */
+.fieldSmall
+{
+	width: 500px;
+}
+
+.fieldBig
+{
+	width: 500px;
+	height: 250px;
+}
+
+#insertDiv
+{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+/* modCaselist */
+#first
+{
+	margin-left: 15px;
+	margin-top: 15px;
+}
